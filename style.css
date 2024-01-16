@@ -284,6 +284,9 @@ nav ul li a:hover {
   background-color: #1c0b5a;
   box-shadow: 0 0 10px rgba(182, 44, 224, 0.916);
 }
+.contai a {
+  color: rgb(98, 137, 230);
+}
 .containe {
   color: rgb(141, 169, 154);
   /* border-radius: 5px;
