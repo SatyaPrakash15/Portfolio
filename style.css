@@ -16,6 +16,7 @@ nav {
 nav ul {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 nav ul li {
   list-style: none;
@@ -28,7 +29,7 @@ nav ul li a {
 }
 nav ul li a:hover {
   color: rgb(212, 95, 223);
-  font-size: 1.03rem;
+  /* font-size: 1.3rem; */
 }
 .left {
   font-size: 1.7rem;
@@ -37,12 +38,13 @@ nav ul li a:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 23px 0;
+  /* margin-top: 80px; */
 }
 .first > div {
   width: 30%;
 }
 .leftside {
+  /* margin-top: 60px; */
   margin: 50px 0;
   font-size: 2.4rem;
 }
@@ -66,13 +68,13 @@ nav ul li a:hover {
 #element {
   color: rgb(89, 89, 202);
 }
-.secondsection {
+#secondsection {
   background-color: #05052d;
   width: 100%;
   margin: auto;
   padding: 2% 0 5% 0;
 }
-.secondsection h1 {
+#secondsection h1 {
   text-align: center;
   font-size: 2.2rem;
 }
@@ -81,12 +83,12 @@ nav ul li a:hover {
   justify-content: center;
   padding-bottom: 2%;
 }
-.Pro {
+#Pro {
   padding: 2%;
   text-align: center;
   width: 100vw;
 }
-.Pro h1 {
+#Pro h1 {
   font-size: 2rem;
 }
 .para2 {
@@ -145,18 +147,21 @@ nav ul li a:hover {
 }
 .clickforproject {
   font-size: 16px;
-  font-weight: 400;
-  color: rgba(242, 243, 244, 0.5);
-  border: 1px solid rgba(242, 243, 244, 0.5);
+  font-weight: 500;
+  color: rgba(233, 236, 239, 0.854);
+  /* border: 1px solid rgba(243, 242, 244, 0.5); */
+  box-shadow: 0 0 10px rgba(9, 239, 147, 0.916);
   border-radius: 12px;
-  padding: 12px 16px;
+  padding: 8px 12px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-left: 90px;
+  background-color: rgb(31, 32, 83);
 }
 .clickforproject a {
   text-decoration: none;
+  /* color: hwb(0 94% 6%); */
   color: rgba(242, 243, 244, 0.5);
 }
 .pe {
@@ -273,7 +278,6 @@ nav ul li a:hover {
   font-size: 1.2rem;
   color: rgba(235, 234, 232, 0.584);
 }
-
 .container {
   color: rgb(19, 224, 111);
   /* border-radius: 5px;
@@ -325,6 +329,7 @@ textarea {
   border: 2px solid #ccc;
   border-radius: 5px;
   background-color: #1c0b5a;
+  color: antiquewhite;
 }
 
 button {
@@ -479,14 +484,15 @@ footer a {
 }
 
 .navbar {
-  position: fixed;
-  top: 0;
+  /* position: fixed;
+  top: 0; */
   width: 100%;
 }
 
 body {
   overflow-x: hidden;
 }
+
 /* .front {
   box-sizing: border-box;
   font-family: poppins, sans-serif;
