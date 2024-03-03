@@ -6,11 +6,19 @@ body {
   background-color: rgb(0, 0, 29);
   color: white;
 }
+
+.main_container .main section {
+  /* position: relative;
+  top: 80px; */
+  /* padding-top: 100px; */
+}
+
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 80px;
+  z-index: 190;
   background-color: rgb(9, 9, 75);
 }
 nav ul {
@@ -68,6 +76,11 @@ nav ul li a:hover {
 #element {
   color: rgb(89, 89, 202);
 }
+
+.main section {
+  padding-top: 90px !important;
+}
+
 #secondsection {
   background-color: #05052d;
   width: 100%;
@@ -484,8 +497,8 @@ footer a {
 }
 
 .navbar {
-  /* position: fixed;
-  top: 0; */
+  position: fixed;
+  top: 0;
   width: 100%;
 }
 
