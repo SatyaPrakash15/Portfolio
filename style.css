@@ -79,6 +79,8 @@ nav ul li a:hover {
 
 .main section {
   padding-top: 90px !important;
+  /* position: relative;
+  top: 90px; */
 }
 
 #secondsection {
